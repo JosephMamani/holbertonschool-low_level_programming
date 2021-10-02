@@ -4,13 +4,15 @@
 
 /**
  * main - Prints alphabet in lowercase
- * Return:0
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
 	int c;
+
 	c = 97;
+
 	while (c <= 122)
 	{
 		putchar (c);
