@@ -6,16 +6,16 @@
 */
 int main(void)
 {
-	long i, number = 612852475143;
+	long x, number = 612852475143;
 
-	for (i  = 2; i <= number; i++)
+	for (x  = 2; x <= number; x++)
 	{
-		if (number % i == 0)
+		if (number % x == 0)
 		{
-			number = number / i;
-			i--;
+			number = number / x;
+			x--;
 		}
 	}
-	printf("%lu\n", i);
+	printf("%lu\n", x);
 	return (0);
 }
