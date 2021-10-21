@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * dividers_number - numbers of dividers
- * is_prime_number - give 1 if is a prime number
  * @n:the int to check
  * @c:counter
  * @i:initializer
@@ -16,6 +15,12 @@ int dividers_number(int n, int c, int i)
 		return (dividers_number(n, c + 1, i + 1));
 	return (dividers_number(n, c, i + 1));
 }
+
+/**
+ * is_prime_number - check if is a prime number
+ * @n:the number to check
+ * Return: 1 if is prime, 0 if is not
+ */
 
 int is_prime_number(int n)
 {
