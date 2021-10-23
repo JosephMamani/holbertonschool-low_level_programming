@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - program that print the number of arguments
+ * main - program that multiplies two numbers
  * @argc:argument count
  * @argv:array of pointers to arguments strings
- * Return:0
+ * Return:Error if not received two arguments
  */
 
 int main(int argc, char *argv[])
