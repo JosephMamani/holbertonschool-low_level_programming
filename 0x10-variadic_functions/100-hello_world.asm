@@ -12,4 +12,5 @@ main:
 	syscall
 
 section .data
-message: db "Hello, World", 0xA, 0x0
+message db "Hello, World", 0xA
+message_length equ $-message
