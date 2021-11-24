@@ -6,15 +6,15 @@
  */
 int main(void)
 {
-	int a, sum;
+        int a, sum;
 
-	for (a = 1; a < 1024; a++)
-	{
-		sum = 0;
+        for (a = 1; a < 1024; a++)
+        {
+                sum = 0;
 
-		if ((a % 3 == 0) || (a % 5 == 0))
-			sum = sum + a;
-	}
-	printf("%d", sum);
-	return (0);
+                if ((a % 3 == 0) || (a % 5 == 0))
+                        sum = sum + a;
+        }
+        printf("%d\n", sum);
+        return (0);
 }
